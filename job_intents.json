@@ -1,0 +1,610 @@
+{
+  "intents": [
+    {
+      "tag": "welcome",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "greetings",
+        "Good day"
+      ],
+      "responses": [
+        "Greetings! How can I assist?",
+        "Good day! What can I do for you today?",
+        "Hello! How can I help you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+     },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "thanks for your help!", "thank you!", "Goodbye","Thanks", "Thank you", "That's helpful", "Thank's a lot!","ok","okey thank you!"],
+      "responses": [
+        "You're welcome! I'm glad I could assist you. Farewell and have a great day!",
+        "Thank you for the pleasant conversation! Wishing you a fantastic day ahead. Goodbye!",
+        "Have a nice day",
+        "Goodbye! Take care and have a wonderful day!",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "scode",
+      "patterns": [
+        "What is the purpose of SCODE?",
+        "What is SCODE for?",
+        "What is the meaning of SCODE",
+        "What is SCODE?",
+        "SCODE"
+      ],
+      "responses": [
+        "SCODE stands for Student Code of Discipline. It refers to a set of rules, regulations, and guidelines established\n by educational institutions to govern the behavior and conduct of students. The SCODE outlines the expected\n standards of behavior, disciplinary procedures, rights, and responsibilities of students within the academic\n community. It aims to maintain a safe and conducive learning environment, promote ethical conduct, and\n ensure the well-being of students. The SCODE typically covers areas such as academic integrity, attendance,\n dress code, use of technology, respect for others, and consequences for violations. It serves as a framework to\n promote discipline, integrity, and responsible behavior among students in educational institutions."
+      ]
+    },
+    {
+      "tag": "v1",
+      "patterns": [
+        "what is the penalty for loitering?",
+        "noise",
+        "noisy",
+        "noise during class",
+        "Students who create unnecessary noise during class",
+        "boisterous conversation and disturb others",
+        "making excessive noise in the classroom",
+        "loitering",
+        "causing disturbance during class time",
+        "what is the sanctions in loitering",
+        "Are there any specific regulations for dealing with students who consistently disrupt the classroom?",
+        "What measures are in place to maintain a peaceful learning environment during class hours?"
+      ],
+      "responses": [
+        "When it comes to a minor offense such as loitering during class hours, making unnecessary noise such as singing or engaging in boisterous conversation causing annoyance and disturbance, the sanctions are as follows:\n\n-First Offense: The student will receive a warning and be referred for counseling to address the behavior.\n\n-Second Offense: Another warning will be given, and the student's parent or guardian will be summoned to discuss the issue.\n\n-Third Offense: As a consequence, the student will be required to complete 2 hours of community service along with ongoing counseling support."
+      ]
+    },
+    {
+      "tag": "v2",
+      "patterns": [
+        "uniform",
+        "what is the penalty for wearing prohibited attire",
+        "university dress code",
+        "dress code policy for entering the university",
+        "dress code",
+        "violate the dress code policy",
+        "wearing prohibited attire",
+        "What are the penalties for students who violate the dress code policy while entering the university?",
+        "What happens if I don't comply with the university's dress code policy upon entry?",
+        "Can you tell me about the dress code policy for entering the university?"
+      ],
+      "responses": [
+        "When entering the university wearing prohibited attire, the consequences for a minor offense are as follows:\n\n- First Offense: A warning will be issued, and the student will be referred for counseling to address the violation.\n\n- Second Offense: The student will be prohibited from entering the university premises as a consequence of the repeated violation.\n\n- Third Offense: In addition to being prohibited from entering the university premises, the student's parent or guardian will be summoned for a discussion, and the student will be required to complete 2 hours of community service as a disciplinary measure."
+      ]
+    },
+    {
+      "tag": "v3",
+      "patterns": [
+        "What happens if I leave the classroom without permission from the instructor during class?",
+        "Can you explain the consequences for abandoning the classroom while the class is in session?",
+        "What are the penalties for leaving the classroom without permission?",
+        "What is the school's policy regarding students who abandon the classroom during class time?",
+        "What will happen if I walk out of the classroom without the instructor's permission?",
+        "Can you tell me about the sanctions for students who leave the classroom without authorization?",
+        "Is there a warning system in place for students who abandon the classroom without permission?",
+        "What actions will be taken if I leave the classroom during a class without the instructor's approval?",
+        "Are there any specific guidelines or rules regarding leaving the classroom during class hours?",
+        "Can you provide more information about the consequences for abandoning the classroom without permission?",
+        "abandoning the classroom without permission"
+      ],
+      "responses": [
+          "When it comes to abandoning the classroom without permission from the instructor while class is going on, the sanctions for a minor offense are as follows:\n\n- First Offense: The student will receive a warning and be referred for counseling to address the behavior.\n\n- Second Offense: The student will be prohibited from attending the class. They will be required to submit a letter of apology, signed by the parent or guardian, and noted by the OSAS Director.\n\n- Third Offense: In addition to being prohibited from attending the class, the student's parent or guardian will be summoned for a discussion, and the student will be required to complete 2 hours of community service as a disciplinary measure."
+      ]
+    },
+    {
+      "tag": "v4",
+      "patterns": [
+        "What are the consequences if I enter the University premises with a prohibited haircut or hairstyle?",
+        "Can you explain the penalties for entering the University premises with prohibited piercings?",
+        "What happens if my hairstyle or haircut is deemed prohibited when entering the University",
+        "Can you tell me about the sanctions for students who violate the rules on hairstyle, haircut, or piercings when entering the University?",
+        "Is there a specific policy regarding hairstyles, haircuts, and piercings for entering the University premises?",
+        "What actions will be taken if I am found with a prohibited haircut or hairstyle upon entering the University?",
+        "Are there any guidelines or restrictions on piercings when entering the University?",
+        "Can you provide examples of hairstyles, haircuts, or piercings that are considered prohibited for entering the University?",
+        "Is there a warning system in place for students who inadvertently violate the rules on hairstyles, haircuts, or piercings when entering the University?",
+        "How strictly are the rules on hairstyles, haircuts, and piercings enforced when entering the University premises?",
+        "prohibited haircut, hairstyle",
+        "prohibited piercings"
+      ],
+      "responses": [
+          "When it comes to entering University premises with a prohibited haircut, hairstyle, or prohibited piercings, the sanctions for a minor offense are as follows:\n\n- First Offense: The student will receive a warning and be referred for counseling to address the issue.\n\n- Second Offense: The student will be prohibited from entering University premises. In addition, their parent or guardian will be summoned for a discussion regarding the repeated offense.\n\n- Third Offense: The student will be further prohibited from entering University premises and will be required to complete 2 hours of community service as a disciplinary measure."
+      ]
+    },
+    {
+      "tag": "v5",
+      "patterns": [
+        "What are the consequences if I engage in violent conduct tantamount to alarm and scandal?",
+        "Can you explain the penalties for committing a major offense of violent conduct?",
+        "What actions will be taken if I am involved in an incident of violent behavior tantamount to alarm and scandal?",
+        "Is there a specific process for handling students who engage in violent conduct that causes alarm and scandal?",
+        "Can you tell me about the disciplinary measures for repeated offenses of violent conduct tantamount to alarm and scandal?",
+        "Are there any counseling services available for students involved in major offenses of violent conduct?",
+        "How does the involvement of the student's parent or guardian play a role in addressing incidents of violent behavior?",
+        "Is community service a mandatory requirement for all major offenses of violent conduct?",
+        "Can you provide more information on the counseling process for students who commit major offenses of violent conduct?",
+        "violent conduct tantamount to alarm and scandal"
+      ],
+      "responses": [
+          "When it comes to violent conduct tantamount to alarm and scandal, which is considered a major offense, the sanctions are as follows:\n\n- First Offense: The student's parent or guardian will be summoned for a discussion. The student will be referred for counseling and required to complete 4 hours of community service.\n\n- Second Offense: The student's parent or guardian will be summoned again. The student will undergo counseling and be required to complete 8 hours of community service.\n\n- Third Offense: The student's parent or guardian will be summoned once more. The student will be referred for counseling and face a 5-day suspension."
+      ]
+    },
+    {
+      "tag": "v6",
+      "patterns": [
+        "What are the consequences if I engage in violent conduct tantamount to alarm and scandal?",
+        "Can you explain the penalties for committing a major offense of violent conduct?",
+        "What actions will be taken if I am involved in an incident of violent behavior tantamount to alarm and scandal?",
+        "Is there a specific process for handling students who engage in violent conduct that causes alarm and scandal?",
+        "Can you tell me about the disciplinary measures for repeated offenses of violent conduct tantamount to alarm and scandal?",
+        "Are there any counseling services available for students involved in major offenses of violent conduct?",
+        "How does the involvement of the student's parent or guardian play a role in addressing incidents of violent behavior?",
+        "Is community service a mandatory requirement for all major offenses of violent conduct?",
+        "Can you provide more information on the counseling process for students who commit major offenses of violent conduct?",
+        "violent conduct tantamount to alarm and scandal"
+      ],
+      "responses": [
+          "When it comes to the major offense of grave threat and bullying of a fellow student, the sanctions are as follows:\n\n- First Offense: The student's parent or guardian will be summoned for a discussion. The student will be referred for counseling and required to complete 4 hours of community service.\n\n- Second Offense: The student's parent or guardian will be summoned again. The student will undergo counseling and be required to complete 8 hours of community service.\n\n- Third Offense: The student's parent or guardian will be summoned once more. The student will be referred for counseling and face a 5-day suspension."
+      ]
+    },
+    {
+      "tag": "v7",
+      "patterns": [
+        "What are the penalty of assault of fellow student resulting to light physical injury?",
+        "light physical injury"
+      ],
+      "responses": [
+          "When it comes to the major offense of assault of fellow student resulting to light physical injury, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian, refer for counseling, reimbursement of medical expenses of the victim and 8 hours community service.\n\n- Second Offense: Summon parent/guardian, refer for counseling, payment of damages/ reimbursement of medical expenses of the victim and 16 hours community service.\n\n- Third Offense: Summon parent/guardian, refer for counseling, payment of damages/ reimbursement of medical expenses of the victim and 5 days suspension."
+      ]
+    },
+    {
+      "tag": "v8",
+      "patterns": [
+        "What are the penalty for assault of fellow student resulting to serious physical injury?",
+        "serious physical injury"
+      ],
+      "responses": [
+          "When it comes to the major offense of Assault of fellow student resulting to serious physical injury, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian, refer for counseling, reimbursement of medical expenses/ payment of damages of the victim and 16 hours community service.\n\n- Second Offense: Summon parent/guardian, refer for counseling, payment of damages/ reimbursement of medical expenses of the victim and 24 hours community service.\n\n- Third Offense: Payment damages/ reimbursement of medical expenses of the victim and expulsion from the University."
+      ]
+    },
+    {
+      "tag": "v9",
+      "patterns": [
+        "What are the penalty for grave threat against persons in authority of the University and their agents?",
+        "grave threat against persons in authority of the University"
+      ],
+      "responses": [
+          "When it comes to the major offense of grave threat against persons in authority of the University and their agents, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian, refer for counseling and 4 hours community service.\n\n- Second Offense: Summon parent/guardian, refer for counseling and 8 hours community service.\n\n- Third Offense: Summon parent/guardian, refer for counseling and 5 days suspension."
+      ]
+    },
+    {
+      "tag": "v10",
+      "patterns": [
+        "What are the penalty for assault against persons in authority of the University and their agents resulting to light physical injury?",
+        "assault against persons in authority of the University and their agents resulting to light physical injury",
+        "light physical injury to authority"
+      ],
+      "responses": [
+          "When it comes to the major offense of assault against persons in authority of the University and their agents resulting to light physical injury, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian, refer for counseling, reimbursement of medical expenses of the victim and 8 hours community service.\n\n- Second Offense: Summon parent/guardian, refer for counseling, payment of damages/ reimbursement of medical expenses of the victim and 16 hours community service.\n\n- Third Offense: Summon parent/guardian, refer for counseling, payment of damages/ reimbursement of medical expenses of the victim and 5 days suspension."
+      ]
+    },
+    {
+      "tag": "v11",
+      "patterns": [
+        "What are the penalty for assault against persons in authority of the University and their agents resulting to serious physical injury?",
+        "assault against persons in authority of the University and their agents resulting to serious physical injury",
+        "serious physical injury to authority"
+      ],
+      "responses": [
+          "When it comes to the major offense of assault against persons in authority of the University and their agents resulting to serious physical injury, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian, refer for counseling, payment of damages/ reimbursement of medical expenses/ payment of damages of the victim and 16 hours community service.\n\n- Second Offense: Summon parent/guardian, refer for counseling, reimbursement of medical expenses/ payment of damages of the victim and 16 hours community service.\n\n- Third Offense: Summon parent/guardian, refer for counseling, reimbursement of medical expenses of the victim and expulsion from the University."
+      ]
+    },
+    {
+      "tag": "v12",
+      "patterns": [
+        "What are the penalty for vandalism and destruction of the University property?",
+        "vandalism",
+        "destruction",
+        "vandalism and destruction of the University property"
+      ],
+      "responses": [
+          "When it comes to the major offense of vandalism and destruction of the University property, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian. Refer for counseling, clean/restore and replace or pay the university for the damage.\n\n- Second Offense: Summon parent/guardian. Refer for counseling, clean/restore and replace or pay the university for the damage and 8 hours community service.\n\n- Third Offense: Summon parent/guardian. Refer for counseling, clean/restore and replace or pay the university for the damage and 5 days suspension."
+      ]
+    },
+    {
+      "tag": "v13",
+      "patterns": [
+        "What are the penalty for Cheating during examinations?",
+        "Cheating during examinations",
+        "Cheating",
+        "examination cheating",
+        "cheat"
+      ],
+      "responses": [
+          "When it comes to the major offense of cheating during examinations, the sanctions are as follows:\n\n- First Offense: Summon parent/guardian. Refer for counseling, A grade of 5.0 or failure in examination where cheating was committed.\n\n- Second Offense: Summon parent/ guardian. Refer for counseling, A grade of 5.0 or failure in examination where cheating was committed and 16 hours community service.\n\n- Third Offense: Summon parent/ guardian. Refer for counseling, A grade of 5.0 or failure in examination where cheating was committed and 5 days suspension."
+      ]
+    },
+    {
+      "tag": "v14",
+      "patterns": [
+        "What are the penalty for taking examination by proxy?",
+        "taking examination by proxy",
+        "proxy",
+        "examination proxy"
+      ],
+      "responses": [
+          "When it comes to the major offense of taking examination by proxy, the sanctions are as follows:\n\n- First Offense: Summon parent/ guardian, refer for counseling, If the students who are involved in the act are both students of ISAT U, they shall be subjected to the penalty of suspension for one semester. If the proxy is an outsider, he/she shall be perpetually disqualified from seeking admission for any course/ employment in the ISAT U System.\n\n- Second Offense: Summon parent/ guardian, refer for counseling, If the students who are involved in the act are both students of ISAT U, they shall be subjected to the penalty of suspension for 1 year. If the proxy is an outsider, he/she shall be perpetually disqualified from seeking admission for any course/ employment of the ISAT U System.\n\n- Third Offense: Summon parent/ guardian, refer for counseling, If the students who are involved in the act are both students of ISAT U, they shall be subjected to the penalty of expulsion from the University. If the proxy is an outsider, he/she shall be perpetually barred from the University System."
+      ]
+    },
+    {
+      "tag": "v15",
+      "patterns": [
+        "What are the penalty for smoking with the University Premises?",
+        "smoking with the University Premises",
+        "smoking inside the university",
+        "smoking",
+        "vape",
+        "smoke",
+        "cigarette"
+      ],
+      "responses": [
+          "When it comes to the other offense of smoking with the University Premises, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling.\n\n- Second Offense: Summon parent/guardians and 2 hours community service.\n\n- Third Offense: Summon parent/guardian and 4 hours community service."
+      ]
+    },
+    {
+      "tag": "v16",
+      "patterns": [
+        "What are the penalty for littering in the University Campus?",
+        "littering in the University Campus",
+        "throwing trash",
+        "littering"
+      ],
+      "responses": [
+          "When it comes to the other offense of littering in the University Campus, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling.\n\n- Second Offense: Summon parent/guardian and 4 hours community service.\n\n- Third Offense: Summon parent/guardian and 8 hours community service."
+      ]
+    },
+    {
+      "tag": "v17",
+      "patterns": [
+        "What are the penalty for posting printed materials in the University without approval?",
+        "posting printed materials in the University without approval"
+      ],
+      "responses": [
+          "When it comes to the other offense of posting printed materials in the University without approval, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling.\n\n- Second Offense: Summon parent/guardian and 4 hours community service.\n\n- Third Offense: Summon parent/guardian and 8 hours community service."
+      ]
+    },
+    {
+      "tag": "v18",
+      "patterns": [
+        "What are the penalty for posting of derogatory/seditious materials with the University premises?",
+        "posting of derogatory/seditious materials with the University premises",
+        "posting of derogatory/seditious materials",
+        "seditious materials"
+      ],
+      "responses": [
+          "When it comes to the other offense of posting of derogatory/seditious materials with the University premises, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling 2 hours community service.\n\n- Second Offense: Summon parent/guardian and 4 hours community service.\n\n- Third Offense: Summon parent/guardian and 8 hours community service."
+      ]
+    },
+    {
+      "tag": "v19",
+      "patterns": [
+        "What are the penalty for Non-wearing of valid ID/wearing of non-validated ID inside the campus?",
+        "Non-wearing of valid ID/wearing of non-validated ID inside the campus",
+        "Non-wearing of valid ID",
+        "wearing of non-validated ID inside the campus",
+        "id"
+      ],
+      "responses": [
+          "When it comes to the other offense of Non-wearing of valid ID/wearing of non-validated ID inside the campus, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling. \n\n- Second Offense: Summon parent/guardian and 2 hours community service.\n\n- Third Offense: Summon parent/guardian and 4 hours community service."
+      ]
+    },
+    {
+      "tag": "v20",
+      "patterns": [
+        "What are the penalty for viewing, reading, distribution of pornographic objects, pictures, and literature?",
+        "viewing, reading, distribution of pornographic objects, pictures, and literature",
+        "viewing of pornographic objects, pictures, and literature",
+        "pornographic objects"
+      ],
+      "responses": [
+          "When it comes to the other offense of viewing, reading, distribution of pornographic objects, pictures, and literature, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling. \n\n- Second Offense: Summon parent/guardian and 2 hours community service.\n\n- Third Offense: Summon parent/guardian and 4 hours community service."
+      ]
+    },
+    {
+      "tag": "v21",
+      "patterns": [
+        "What are the penalty for Unauthorized presentation of the University during class hours?",
+        "Unauthorized presentation of the University during class hours"
+      ],
+      "responses": [
+          "When it comes to the other offense of Unauthorized presentation of the University during class hours, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 2 hours community service. \n\n- Second Offense: Summon parent/guardian and 4 hours community service.\n\n- Third Offense: Summon parent/guardian and 8 hours community service."
+      ]
+    },
+    {
+      "tag": "v22",
+      "patterns": [
+        "What are the penalty for Unauthorized assembly of students within the University during class hours?",
+        "Unauthorized assembly of students within the University during class hours"
+      ],
+      "responses": [
+          "When it comes to the other offense of Unauthorized assembly of students within the University during class hours, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 2 hours community service. \n\n- Second Offense: Summon parent/guardian and 4 hours community service.\n\n- Third Offense: Summon parent/guardian and 8 hours community service."
+      ]
+    },
+    {
+      "tag": "v23",
+      "patterns": [
+        "What are the penalty for Entering the University under the influence of liquor?",
+        "Entering the University under the influence of liquor"
+      ],
+      "responses": [
+          "When it comes to the other offense of Entering the University under the influence of liquor, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 4 hours community service. \n\n- Second Offense: Summon parent/guardian and 8 hours community service.\n\n- Third Offense: Summon parent/guardian and 16 hours community service."
+      ]
+    },
+    {
+      "tag": "v24",
+      "patterns": [
+        "What are the penalty for possessing/selling of intoxicating liquor or chemicals in any form within the University Campus?",
+        "possessing/selling of intoxicating liquor or chemicals in any form within the University Campus",
+        "selling of intoxicating liquor or chemicals"
+      ],
+      "responses": [
+          "When it comes to the other offense of possessing/selling of intoxicating liquor or chemicals in any form within the University Campus, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/guardian and 8 hours community service. \n\n- Second Offense: Summon parent/guardian and 16 hours community service.\n\n- Third Offense: Summon parent/guardian and 5 days suspension."
+      ]
+    },
+    {
+      "tag": "v25",
+      "patterns": [
+        "What are the penalty for possessing/use/selling of prohibited drugs and substances?",
+        "possessing/use/selling of prohibited drugs and substances",
+        "using of prohibited drugs and substances",
+        "selling of prohibited drugs and substances"
+      ],
+      "responses": [
+          "When it comes to the other offense of possessing/use/selling of prohibited drugs and substances, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/guardian and 5 days suspension service. \n\n- Second Offense: Summon parent/guardian and 1 semester suspension.\n\n- Third Offense: Summon parent/guardian and expulsion."
+      ]
+    },
+    {
+      "tag": "v26",
+      "patterns": [
+        "What are the penalty for involvement in Mass action and activities for purposes contrary to law?",
+        "involvement in Mass action and activities for purposes contrary to law"
+      ],
+      "responses": [
+          "When it comes to the other offense of involvement in Mass action and activities for purposes contrary to law, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/guardian and 8 hours community service. \n\n- Second Offense: Summon parent/guardian and days suspension.\n\n- Third Offense: Summon parent/guardian and 1 semester suspension."
+      ]
+    },
+    {
+      "tag": "v27",
+      "patterns": [
+        "What are the penalty for organizing/joining any unaccredited/unrecognized fraternity/sorority or frasority and other student organizations and whose purpose is to create disorder and distability to the University?",
+        "organizing/joining any unaccredited/unrecognized fraternity/sorority or frasority and other student organizations and whose purpose is to create disorder and distability to the University",
+        "joining any unaccredited/unrecognized fraternity/sorority",
+        "fraternity/sorority"
+      ],
+      "responses": [
+          "When it comes to the other offense of organizing/joining any unaccredited/unrecognized fraternity/sorority or frasority and other student organizations and whose purpose is to create disorder and distability to the University, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/guardian and 5 days suspension. \n\n- Second Offense: Summon parent/guardian and 1 semester suspension.\n\n- Third Offense: Summon parent/guardian and expulsion."
+      ]
+    },
+    {
+      "tag": "v28",
+      "patterns": [
+        "What are the penalty for Carrying deadly and dangerous weapons including explosives and incendiary materials within the premises of the University?",
+        "Carrying deadly and dangerous weapons",
+        "Carrying deadly and dangerous weapons including explosives and incendiary materials within the premises of the University",
+        "Carrying deadly and dangerous weapons including explosives and incendiary materials",
+        "dangerous weapons",
+        "explosives",
+        "incendiary materials"
+      ],
+      "responses": [
+          "When it comes to the other offense of Carrying deadly and dangerous weapons including explosives and incendiary materials within the premises of the University, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/guardian and 5 days suspension. \n\n- Second Offense: Summon parent/guardian and 1 semester suspension.\n\n- Third Offense: Summon parent/guardian and expulsion."
+      ]
+    },
+    {
+      "tag": "v29",
+      "patterns": [
+        "What are the penalty for Extorting money from fellow students?",
+        "Extorting money from fellow students"
+      ],
+      "responses": [
+          "When it comes to the other offense of extorting money from fellow students, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/guardian and 5 days suspension. \n\n- Second Offense: Summon parent/guardian and 1 semester suspension.\n\n- Third Offense: Summon parent/guardian and expulsion."
+      ]
+    },
+    {
+      "tag": "v30",
+      "patterns": [
+        "What are the penalty for Any form of gambling within the University premises?",
+        "Any form of gambling within the University premises",
+        "gambling"
+      ],
+      "responses": [
+          "When it comes to the other offense of any form of gambling within the University premises, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 4 hours community service. \n\n- Second Offense: Summon parent/guardian and 8 hours community service.\n\n- Third Offense: Summon parent/guardian and 16 hours community service."
+      ]
+    },
+    {
+      "tag": "v31",
+      "patterns": [
+        "What are the penalty for Failure to pay a just debt?",
+        "Failure to pay a just debt",
+        "debt"
+      ],
+      "responses": [
+          "When it comes to the other offense of failure to pay a just debt, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and payment of the debt. \n\n- Second Offense: Summon parents/ guardians, counseling and payment of the debt.\n\n- Third Offense: Reprimand summon parent/ guardian, payment of the debt. In case of non-payment, deferment of issuance of his/her certificate of good moral character."
+      ]
+    },
+    {
+      "tag": "v32",
+      "patterns": [
+        "What are the penalty for Uttering defamatory, slanderous and libelous statements, remarks against any University official or his authorized representative, fellow student or any personnel of the University?",
+        "Uttering defamatory, slanderous and libelous statements, remarks against any University official or his authorized representative, fellow student or any personnel of the University",
+        "slanderous statements",
+        "Uttering defamatory statements",
+        "libelous statements","remarks against any University official"
+
+      ],
+      "responses": [
+          "When it comes to the other offense of uttering defamatory, slanderous and libelous statements, remarks against any University official or his authorized representative, fellow student or any personnel of the University, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 4 hours community service. \n\n- Second Offense: Summon parent/guardian and 8 hours community service.\n\n- Third Offense: Summon parent/guardian and 16 hours community service."
+      ]
+    },
+    {
+      "tag": "v33",
+      "patterns": [
+        "What are the penalty for Disrespect of faculty members, employees, and other University officials by circulating derogatory remarks and false information, mocking and/or instigating a quarrel among them?",
+        "Disrespect of faculty members, employees, and other University officials by circulating derogatory remarks and false information, mocking and/or instigating a quarrel among them",
+        "Disrespect of faculty members",
+        "Disrespect of employees",
+        "Disrespect of University officials",
+        "Disrespect of University officials by circulating derogatory remarks and false information, mocking and/or instigating a quarrel among them"
+      ],
+      "responses": [
+          "When it comes to the other offense of Disrespect of faculty members, employees, and other University officials by circulating derogatory remarks and false information, mocking and/or instigating a quarrel among them, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 4 hours community service. \n\n- Second Offense: Summon parent/guardian and 8 hours community service.\n\n- Third Offense: Summon parent/guardian and 16 hours community service."
+      ]
+    },
+    {
+      "tag": "v34",
+      "patterns": [
+        "What are the penalty for Forging signatures of authorities, falsifying or tampering University records, documents or credentials or knowingly furnishing the University with false or fraudulent information in connection with an official document?",
+        "Forging signatures of authorities",
+        "tampering University records",
+        "falsifying University records",
+        "falsifying University documents",
+        "falsifying University credentials",
+        "knowingly furnishing the University with false or fraudulent information in connection with an official document"
+      ],
+      "responses": [
+          "When it comes to the other offense of Forging signatures of authorities, falsifying or tampering University records, documents or credentials or knowingly furnishing the University with false or fraudulent information in connection with an official document, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling, summon of parent/ guardian and 5 days suspension \n\n- Second Offense: Summon of parent/ guardian and 1 semester suspension.\n\n- Third Offense: Summon of parent/ guardian and expulsion."
+      ]
+    },
+    {
+      "tag": "v35",
+      "patterns": [
+        "What are the penalty for entering the school with fake, tampered or borrowed ID?",
+        "entering the school with fake, tampered or borrowed ID",
+        "fake ID",
+        "borrowed id",
+        "borrowed ID",
+        "tampered or borrowed ID"
+      ],
+      "responses": [
+          "When it comes to the other offense of entering the school with fake, tampered or borrowed ID, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and 2 hours community service. \n\n- Second Offense: Warning followed by counseling and 4 hours community service.\n\n- Third Offense: Summon of parent/ guardian and 8 hours community service."
+      ]
+    },
+    {
+      "tag": "v36",
+      "patterns": [
+        "What are the penalty for Lewd or Lascivious Conduct between opposite/ same sex constitution of, but not limited to petting, necking or any obscene exposure of the body or unwelcome lustful advances towards other students, school employees or visitors within the University premises?",
+        "Lewd or Lascivious Conduct between opposite/ same sex constitution",
+        "Lewd or Lascivious Conduct between opposite/ same sex constitution of, but not limited to petting, necking or any obscene exposure of the body or unwelcome lustful advances towards other students, school employees or visitors within the University premises",
+        "any obscene exposure of the body ",
+        "unwelcome lustful advances towards other students",
+        "unwelcome lustful advances towards other school employees ",
+        "unwelcome lustful advances towards other visitors"
+      ],
+      "responses": [
+          "When it comes to the other offense of Lewd or Lascivious Conduct between opposite/same sex constitution of, but not limited to petting, necking or any obscene exposure of the body or unwelcome lustful advances towards other students, school employees or visitors within the University premises, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling, summon of parent/ guardian and 15 days suspension. \n\n- Second Offense: Summon of parent/ guardian and 1 semester suspension.\n\n- Third Offense: Summon of parent/ guardian and expulsion ."
+      ]
+    },
+    {
+      "tag": "v37",
+      "patterns": [
+        "What are the penalty for Indulging in sexual intercourse inside the university campus whether with opposite or same sex partner ?",
+        "Indulging in sexual intercourse inside the university campus whether with opposite or same sex partner ",
+        "Indulging in sexual intercourse inside the university",
+        "sexual intercourse inside the university",
+        "sexual intercourse",
+        "sex",
+        "sexual intercourse inside the university with opposite or same sex partner",
+        "sexual intercourse inside the university with opposite sex partner",
+        "sexual intercourse inside the university with same sex partner",
+        "having a sexual intercourse"
+      ],
+      "responses": [
+          "When it comes to the other offense of Indulging in sexual intercourse inside the university campus whether with opposite or same sex partner, the sanctions are as follows:\n\n- First Offense: Summon of parent/ guardian, counseling with 1 semester suspension. \n\n- Second Offense: Summon of parent/ guardian, counseling with 1 school year suspension.\n\n- Third Offense: Summon of parent/ guardian and expulsion from the University."
+      ]
+    },
+    {
+      "tag": "v38",
+      "patterns": [
+        "What are the penalty for Involvement in video and photo – voyeurism acts?",
+        "Involvement in video and photo – voyeurism acts",
+        "voyeurism acts",
+        "voyeurism",
+        "Involvement in video and photo"
+      ],
+      "responses": [
+          "When it comes to the other offense of Involvement in video and photo – voyeurism acts, the sanctions are as follows:\n\n- First Offense: Summon of parent/ guardian, counseling with 1 semester suspension. \n\n- Second Offense: Summon of parent/ guardian, counseling with 1 school year suspension.\n\n- Third Offense: Summon of parent/ guardian and expulsion from the University."
+      ]
+    },
+    {
+      "tag": "v39",
+      "patterns": [
+        "What are the penalty for Cyber bullying and libelous, malicious, derogatory, and irresponsible use of social media?",
+        "Cyber bullying and libelous, malicious, derogatory, and irresponsible use of social media",
+        "Cyber bullying",
+        "libelous use of social media",
+        "malicious use of social media",
+        "derogatory use of social media",
+        "irresponsible use of social media",
+        "social media bullying"
+      ],
+      "responses": [
+          "When it comes to the other offense of Cyber bullying and libelous, malicious, derogatory, and irresponsible use of social media, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling summon of parent/ guardian and 15 days suspension. \n\n- Second Offense: Summon of parent/ guardian and 1 semester suspension.\n\n- Third Offense: Summon of parent/ guardian and 1 year suspension."
+      ]
+    },
+    {
+      "tag": "v40",
+      "patterns": [
+        "What are the penalty for Unlawful use and neglectful conduct in the custody of funds?",
+        "Unlawful use and neglectful conduct in the custody of funds",
+        "neglectful conduct in the custody of funds",
+        "funds"
+      ],
+      "responses": [
+          "When it comes to the other offense of Unlawful use and neglectful conduct in the custody of funds, the sanctions are as follows:\n\n- First Offense: Warning followed by counseling and payment/ Restitution of the funds. \n\n- Second Offense: Summon of parents/ guardians, counseling, and payment/ restitution of the funds and 1 semester suspension.\n\n- Third Offense: Summon of parent/ guardian, payments/ restitution of the funds. In case of non-payment, deferment of issuance of his/her certificate of good moral character and expulsion."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth?\n\n He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college?\n\n Bison.",
+        "Why don't scientists trust atoms?\n\nBecause they make up everything!",
+        "Why don't skeletons fight each other?\n\nThey don't have the guts!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you?",
+        "are you an ai model?"
+      ],
+      "responses": [
+        "As an AI model named SCODE, my name is SCODE. I am here to assist you with any questions or inquiries you may have regarding the ISAT-U MC Student Code of Discipline. How can I help you today?",
+        "You can call me SCODE. How can I assist you further with the ISAT-U MC Student Code of Discipline?",
+        "My name is SCODE, the AI language model developed to assist with queries related to the ISAT-U MC Student Code of Discipline.\" How can I be of service to you?"
+      ]
+    }
+
+  ]
+}
